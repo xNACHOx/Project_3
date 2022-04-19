@@ -11,7 +11,46 @@
 .header-main-footer-header {
   grid-area: header;
   background-color: yellow;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
+}
+.main-nav {
+  display: grid;
+  grid-template-areas: 
+    "Home About logo Graphics Artwork";
+}
+
+@media (max-width: 580px) {
+  .main-nav{
+    grid-template-areas: 
+      "logo logo logo logo"
+      "Home About Graphics Artwork";
+  }
+}
+
+.nav-link-logo {
+  grid-area: logo;
+}
+
+@media (max-width: 580px) {
+  .nav-link-logo {
+    justify-content: space-between;
+  }
+}
+
+.nav-link-1 {
+  grid-area: Home;
+}
+
+.nav-link-2 {
+  grid-area: About;
+}
+
+.nav-link-3 {
+  grid-area: Graphics;
+}
+
+.nav-link-4 {
+  grid-area: Artwork;
 }
 
 .header-main-footer-main {
@@ -22,5 +61,5 @@
 .header-main-footer-footer {
   grid-area: footer;
   background-color: aqua;
-  padding-top: 50px;
+  padding-top: 100px;
 }
