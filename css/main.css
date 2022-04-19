@@ -1,4 +1,4 @@
-.header-main-footer-demo-container {
+.header-main-footer-container {
   display: grid;
   grid-template-areas:
     "header"
@@ -11,6 +11,7 @@
 .header-main-footer-header {
   grid-area: header;
   background-color: yellow;
+  padding-bottom: 50px;
 }
 
 .header-main-footer-main {
@@ -21,4 +22,5 @@
 .header-main-footer-footer {
   grid-area: footer;
   background-color: aqua;
+  padding-top: 50px;
 }
