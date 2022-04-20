@@ -15,6 +15,7 @@
 }
 .main-nav {
   display: grid;
+  justify-content: space-evenly;
   grid-template-areas: 
     "Home About logo Graphics Artwork";
 }
@@ -33,7 +34,7 @@
 
 @media (max-width: 580px) {
   .nav-link-logo {
-    justify-content: space-between;
+    justify-content: center;
   }
 }
 
