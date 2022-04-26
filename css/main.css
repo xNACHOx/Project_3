@@ -17,14 +17,14 @@
   display: grid;
   justify-content: space-evenly;
   grid-template-areas: 
-    "Home About logo Graphics Artwork";
+    "Details About logo Contacts Artwork";
 }
 
 @media (max-width: 580px) {
   .main-nav{
     grid-template-areas: 
       "logo logo logo logo"
-      "Home About Graphics Artwork";
+      "Details About Contacts Artwork";
   }
 }
 
@@ -39,7 +39,7 @@
 }
 
 .nav-link-1 {
-  grid-area: Home;
+  grid-area: Details;
 }
 
 .nav-link-2 {
@@ -47,7 +47,7 @@
 }
 
 .nav-link-3 {
-  grid-area: Graphics;
+  grid-area: Contacts;
 }
 
 .nav-link-4 {
@@ -63,4 +63,7 @@
   grid-area: footer;
   background-color: aqua;
   padding-top: 100px;
+}
+img{ 
+  max-width: 100%;
 }
