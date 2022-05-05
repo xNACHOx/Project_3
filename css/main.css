@@ -68,7 +68,6 @@ img{
   max-width: 100%;
 }
 
-/* SINGLE-GALLERY */
 .double-gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -79,7 +78,6 @@ img{
 
 .double-gallery-grid a {
   display: flex;
-  filter: grayscale(.5);
 }
 
 .double-gallery-grid a:hover {
