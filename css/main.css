@@ -10,7 +10,7 @@
 
 .header-main-footer-header {
   grid-area: header;
-  background-color: yellow;
+  background-color: rgb(133, 128, 235);
 }
 .main-nav {
   display: grid;
@@ -55,12 +55,12 @@
 
 .header-main-footer-main {
   grid-area: main;
-  background-color: pink;
+  background-color: rgb(84, 22, 239);
 }
 
 .header-main-footer-footer {
   grid-area: footer;
-  background-color: aqua;
+  background-color: rgb(133, 128, 235);
   padding-top: 125px;
 }
 
