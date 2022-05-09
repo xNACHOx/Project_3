@@ -16,14 +16,15 @@
   display: grid;
   justify-content: space-evenly;
   grid-template-areas: 
-    "Details About logo Contacts Artwork";
+    "Photography Contacts logo About Me Artwork";
+    
 }
 
 @media (max-width: 580px) {
   .main-nav{
     grid-template-areas: 
       "logo logo logo logo"
-      "Details About Contacts Artwork";
+      "Photography Contacts logo About Me Artwork";
   }
 }
 
@@ -33,24 +34,24 @@
 
 @media (max-width: 580px) {
   .nav-link-logo {
-    justify-content: center;
   }
 }
 
 .nav-link-1 {
-  grid-area: Details;
+  grid-area: Photography;
   font-size: 30px;
 }
 
 .nav-link-2 {
-  grid-area: About;
+  grid-area: Contacts;
   font-size: 30px;
 
 }
 
 .nav-link-3 {
-  grid-area: Contacts;
+  grid-area: About Me;
   font-size: 30px;
+
 
 }
 
@@ -88,18 +89,18 @@ img{
 }
 
 .double-gallery-grid a:hover {
-  filter: grayscale(1);
+  filter: grayscale(.2);
 }
 
 @media (min-width: 1000px) {
   .double-gallery-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   }
 }
 
 .overlay-wrapper {
   position: relative;
-  max-width: 350px;
+  max-width: 800px;
   display: flex;
 }
 
@@ -109,12 +110,14 @@ img{
   left: 0;
   width: 100%;
   height: 100%;
-  font-size: 32px;
+  font-size: 36px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-shadow: #3c013c;
   opacity: 0;
-  background-color: rgba(127, 17, 224, .25);
+  background-color: rgba(200, 142, 255, 0.749);
+  color: #f1e900f1;
 }
 
 
@@ -390,4 +393,26 @@ justify-content: center;
 align-items: center;
 color: #ffeded;
 max-width: 100%;
+}
+
+.form-note {text-align: center;
+padding-top: 20px;}
+
+a:link {
+  color: goldenrod;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(45, 192, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: gold;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
