@@ -62,7 +62,7 @@
 
 .header-main-footer-main {
   grid-area: main;
-  background-color: #1d00af;
+  background-color: #dfbf56;
 }
 
 .header-main-footer-footer {
@@ -124,11 +124,11 @@ img{
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-body { background:rgba(4, 4, 4, 0.39); }
+body { background:rgb(0, 0, 0); }
 form { max-width:420px; margin:50px auto; }
 
 .form-input {
-  color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
   font-size: 18px;
@@ -209,7 +209,9 @@ body {
     -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
     0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
   animation: shine 2s forwards, flicker 3s infinite;
+  
 }
+ 
 
 @keyframes blink {
   0%,
@@ -378,4 +380,14 @@ body {
   to {
     opacity: 1;
   }
+}
+
+
+.container { 
+padding-top: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #ffeded;
+max-width: 100%;
 }
