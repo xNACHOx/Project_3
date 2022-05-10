@@ -130,6 +130,7 @@ img{
 body { background:rgb(0, 0, 0); }
 form { max-width:420px; margin:50px auto; }
 
+
 .form-input {
   color:rgb(0, 0, 0);
   font-family: Helvetica, Arial, sans-serif;
@@ -156,22 +157,19 @@ textarea {
   resize:vertical;
 }
 
-[type="send"] {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 16.5%;
-  background:#5a71f3;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+.button {
+  border: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(198, 198, 198);
+  padding-left: 15px 32px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 28px;
+  margin: 4px 2px;
+  cursor: crosshair;
 }
-[type="send"]:hover { background:#07070778; }
+
 
 @font-face {
   font-family: Clip;
@@ -415,4 +413,11 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
+}
+
+.contact-info {
+  color: #ffeded;
+padding-bottom: 50px;
+text-align: center;
+font-size: 18px;
 }
