@@ -10,7 +10,7 @@
 
 .header-main-footer-header {
   grid-area: header;
-  background-color: #000000eb;
+  background-color: #121212;
 }
 .main-nav {
   display: grid;
@@ -69,7 +69,7 @@
 .header-main-footer-footer {
   grid-area: footer;
   padding-top: 125px;
-  background-color: #000000eb
+  background-color: #121212
 }
 
 img{ 
