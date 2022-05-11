@@ -160,7 +160,7 @@ textarea {
 .button {
   border: none;
   color: rgb(0, 0, 0);
-  background-color: rgb(198, 198, 198);
+  background-color: rgb(137, 137, 137);
   padding-left: 15px 32px;
   justify-content: center;
   align-items: center;
@@ -168,6 +168,7 @@ textarea {
   font-size: 28px;
   margin: 4px 2px;
   cursor: crosshair;
+  border-width: 5px;
 }
 
 
@@ -420,4 +421,5 @@ a:active {
 padding-bottom: 50px;
 text-align: center;
 font-size: 18px;
+border-width: 2px;
 }
